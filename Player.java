@@ -1,4 +1,8 @@
 public class Player{
+	/*
+	  Each player will have a unqiue id. Keeps track of player information like wins, losses, and more. Player 
+	  is used in other files like game and scoreboard. 
+	*/
 	//fields
 	private static int currentId=1;
 	private int id = 0;
@@ -11,6 +15,7 @@ public class Player{
 	 int takeSticks = 0;
 	
 	//getters and setters
+	
 	public int getId() {return id;}
 	public String getName(){return name;}
 	public int getWins(){return wins;}
@@ -42,7 +47,7 @@ public class Player{
 				}
 			
 			}else{
-				
+				//Make error message better. 
 				sGui.displayMsg("Invalid number of sticks that can be removed.");
 			}
 		}
@@ -50,11 +55,15 @@ public class Player{
 		
 		
 	}
-	
+	//Count wins --> wins = wins + 1
 	public void addWins(){
 		this.wins++;
 	}
+	//Count losses --> losses = losses + 1
 	public void addLosses(){
 		this.losses++;
 	}
+	
+	
+	//dHNjdGZ7U3R5eF9pMl90aDNfYjNzdH0=
 }
