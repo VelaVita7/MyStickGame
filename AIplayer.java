@@ -1,6 +1,6 @@
 public class AIplayer extends Player {
 	//fields
-	
+	//I am the player 
 	//constructor
 	public AIplayer(String n){
 		super(n);
@@ -20,4 +20,5 @@ public class AIplayer extends Player {
 		}
 		
 	}
+	//TXkgU3RpY2tnYW1lIGlzIHRoZSBiZXN0IQ==
 }
