@@ -10,9 +10,10 @@ public class ScoreBoard{
 		this.players = ps;
 	}
 	
-	
+
 	//public method
 	public String sBoard(){
+		//^the board
 		int longestName =  players[0].getName().length();
 		for(int i=0; i < players.length; i++){
 			if(longestName < players[i].getName().length()){
@@ -42,5 +43,14 @@ public class ScoreBoard{
 			scoreB+= "=";
 		}
 		return scoreB;
+		/*
+		
+		
+		
+		WUF5eXl5eXl5ISEhCgoKCgoKCllBQVlZWVlZWSEKCkFBQUFBQUFBQUFBQQoKU0NPUkVCT0FSRAoKCgoKCllBWVlZWVlZWVlZWVlZWVlZWVlZWQ==
+		
+		
+		
+		*/
 	}
 }
